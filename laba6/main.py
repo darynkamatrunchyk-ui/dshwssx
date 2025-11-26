@@ -1,4 +1,4 @@
-from decorator_auth import require_password
+from decorator import require_password
 
 @require_password("12345")
 def secret_info():
